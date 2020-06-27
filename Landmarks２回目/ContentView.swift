@@ -12,7 +12,10 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, World!こんにちは")
             .fontWeight(.bold)
-            .foregroundColor(Color.green)
+            .foregroundColor(Color.orange)
+            .multilineTextAlignment(.trailing)
+            
+            
     }
 }
 
